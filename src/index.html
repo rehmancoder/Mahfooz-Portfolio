@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kumar+One+Outline&family=Londrina+Outline&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+</head>
+<body class="font-syne">
+    <section class="w-full flex justify-center h-[100px]">
+        <main class="md:w-[80%] w-[90%] flex justify-between items-center">
+            <div>
+                <h1 class="text-[25px] font-bold">Mahfooz Dev</h1>
+            </div>
+            <div >
+                <ul class="lg:flex gap-5 list-none hidden">
+                    <li class="text-[#848689] hover:text-black" id="nav-li">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="text-[#848689] hover:text-black  " id="nav-li"><a href="#about">About</a></li>
+                    <li class="text-[#848689] hover:text-black" id="nav-li"><a href="#services">Services</a></li>
+                    <li class="text-[#848689] hover:text-black" id="nav-li"><a href="#resume">Resume</a></li>
+                    <li class="text-[#848689] hover:text-black" id="nav-li"><a href="#projects">Projects</a></li>
+                    <li class="text-[#848689] hover:text-black" id="nav-li"><a href="#contact">Contact</a></li>
+                </ul>
+                <button id="menu-btn" onclick="menu()" class="bg-none lg:hidden"><i class="bi bi-list-nested text-[40px] text-[#848689] font-extrabold"></i></button>
+            </div>
+            
+
+        </main>
+        <div class="bg-[#272727] h-[200px] w-[300px]  hidden id="bar">
+            <ul class="text-[#A9A9A9] flex flex-col gap-3 p-5 ">
+                <li><hr class="text-[#A9A9A9] h-1 w-full"></li>
+                <li class="ml-3"><a href="home">Home</a></li>
+                <li><hr class="text-blue-500 h-1 w-full"></li>
+                <li class="ml-3"><a href="about">About</a></li>
+                <li> <hr> </li>
+                <li class="ml-3"><a href="services">Services</a></li>
+                <li><hr></li>
+                <li class="ml-3"><a href="resume">Resume</a></li>
+                <li><hr></li>
+                <li class="ml-3"><a href="projects">Projects</a></li>
+                <li><hr></li>
+                <li class="ml-3"><a href="contacts">Contacts</a></li>
+                <li><hr></li>
+            </ul>
+        </div>
+
+    </section>
+
+    <!-- banner section starts -->
+
+
+    <section class="w-full flex justify-center pb-24" id="home">
+        <main class="md:w-[80%] w-[90%] flex flex-col justify-center items-center bg-[#e6eaee] h-[400px] md:h-[450px] rounded-xl">
+            <h1 class="lg:text-[70px] text-center text-[40px] md:text-[50px] font-semibold">I'M <span class="font-libre font-extralight lg:text-[60px] md:text-[45px] ">MAHFOOZ</span> UL HAQ</h1>
+            <div class="bg-[white]">
+                <ul class="flex flex-col md:flex-row gap-5 p-5 text-[#848689] items-center">
+                    <li>Front-end Developer</li>
+                    <li>UI/UX Designer</li>
+                </ul>
+            </div>
+   </main>
+   </section>
+
+   <!-- about section starts -->
+   <section class="w-full flex justify-center py-10">
+    <main class="md:w-[80%] w-[90%]">
+        <div class="grid lg:grid-cols-3 grid-cols-1 gap-7 ">
+
+            <div class="border-[0.1px] border-[#EFEFEF] p-7 md:p-10 rounded-xl flex flex-col justify-center items-center gap-5 col-span-1">
+                <img src="./img/20240313_230817.jpg" alt="" class="md:h-[300px] md:w-[300px] h-[200px] object-cover rounded-xl">
+                <div class="w-full flex flex-col items-center">
+                    <h1 class="md:text-[25px] text-[20px] font-semibold text-center">Mahfooz Ul Haq</h1>
+                    <span class="flex items-center gap-3 font-extralight text-[#636363] text-center border-[0.5px] border-[#EFEFEF] rounded-full px-5 py-1">Available for Work <div class="h-3 w-3 bg-green-500 rounded-full"></div></span>
+                </div>
+                <div class="flex flex-col md:flex-row gap-5">
+                    <div class="flex gap-5"><button class="group border-[#EFEFEF] border-[0.2px] py-2 px-3 "><i class="bi bi-facebook text-[#636363] text-[17px] group-hover:text-black transition-all delay-200 ease-out"></i></button>
+                        <button class="group border-[#EFEFEF] border-[0.2px] py-2 px-3 "><i class="bi bi-twitter-x text-[#636363] group-hover:text-black transition-all delay-200 ease-out"></i></button>
+                        </div>
+                    <div class="flex gap-5"><button  class="group border-[#EFEFEF] border-[0.2px] py-2 px-3 "><i class="bi bi-linkedin text-[#636363] group-hover:text-black transition-all delay-200 ease-out"></i></button>
+                        <a href="https://github.com/Mahfoozdev"><button class=" border-[#EFEFEF] group border-[0.2px] py-2 px-3 "><i class="bi bi-github text-[#636363] group-hover:text-black transition-all delay-200 ease-out"></i></i></button></a></div>
+                </div>
+            </div>
+
+            <div class="lg:col-span-2 col-span-1 flex flex-col gap-5 justify-center" id="about">
+                <h1 class="md:text-[45px] text-[30px] font-medium ">Hello, I’m Mahfooz, Front-end Developer and UX / UI Designer.</h1>
+                <p class="text-[#636363]">As a seasoned web developer, I specialize in a wide array of technologies, including HTML, CSS, SASS, JavaScript, TypeScript, Bootstrap, Tailwind CSS, and various frameworks such as React, Next.js, Vue.js, and Nuxt.js.My skill set extends beyond development, as I also have expertise in UI/UX design, having created visually captivating designs using industry-standard tools like Adobe XD and Figma. Furthermore, my application development experience covers both Android and iOS platforms, ensuring a seamless and tailored user experience. Above all, my commitment is to align project objectives with the overarching business strategy, striving for unparalleled client satisfaction. <br>
+                    ~ Thank you ~</p>
+                <button class="text-white hover:text-black bg-black hover:bg-white border-[1px] border-[#EFEFEF] md:p-5 flex justify-center p-3 w-36  gap-5 md:w-[40%] lg:w-[35%] xl:w-[25%]">Download CV <span><i class="bi bi-download "></i></span></button>
+               
+            </div>
+
+        </div>
+
+      </main>
+      </section>
+   <!-- services section starts -->
+   <section class="w-full flex justify-center py-24">
+    <main class="md:w-[80%] w-[90%] flex flex-col items-center justify-center gap-5">
+        <span class="text-[#636363]" id="services">SERVICES</span>
+        <h1 class="md:text-[45px] text-[30px] font-medium">Quality Services</h1>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 pt-10">
+            <div class="px-10 py-14 bg-[#e6eaee] flex flex-col gap-5 items-start rounded-xl border-[0.1px] hover:border-black transition-all delay-200 ease-linear">
+                <img src="./img/world.svg" alt="" class="h-16">
+                <h1 class="text-[20px]">Brand Identity Design</h1>
+                <p class="text-[#77777d]"> Our meticulous approach combines creativity with strategic thinking to develop cohesive visual identities that leave a lasting impression.</p>
+            </div>
+            <div class="px-10 py-14 bg-[#e6eaee] flex flex-col gap-5 items-start rounded-xl border-[0.01px] hover:border-black transition-all delay-200 ease-linear">
+                <img src="./img/leaf.svg" alt="" class="h-16">
+                <h1 class="text-[20px]">Website Design</h1>
+                <p class="text-[#77777d]">
+                    Consistently provide tailored solutions for your business and projects.</p>
+            </div>
+            <div class="px-10 py-14 bg-[#e6eaee] flex flex-col gap-5 items-start rounded-xl border-[0.01px] hover:border-black transition-all delay-200 ease-linear">
+                <img src="./diary.svg" alt="" class="h-16">
+                <h1 class="text-[20px]">Application Design</h1>
+                <p class="text-[#77777d]">Deliver bespoke solutions and designs for your business and projects.</p>
+            </div>
+            <div class="px-10 py-14 bg-[#e6eaee] flex flex-col gap-5 items-start rounded-xl border-[0.01px] hover:border-black transition-all delay-200 ease-linear">
+                <img src="./img/interaction.svg" alt="" class="h-16">
+                <h1 class="text-[20px]">Responsiveness</h1>
+                <p class="text-[#77777d]">Improving your website or web application's compatibility across various devices.</p>
+            </div>
+            <div class="px-10 py-14 bg-[#e6eaee] flex flex-col gap-5 items-start rounded-xl border-[0.01px] hover:border-black transition-all delay-200 ease-linear">
+                <img src="./img/check-package.svg" alt="" class="h-16">
+                <h1 class="text-[20px]">Quality Assurance</h1>
+                <p class="text-[#77777d]">Thoroughly testing and ensuring the flawless operation of your application.</p>
+            </div>
+            <div class="px-10 py-14 bg-[#e6eaee] flex flex-col gap-5 items-start rounded-xl border-[0.01px] hover:border-black transition-all delay-200 ease-linear">
+                <img src="./img/quick-response.svg" alt="" class="h-16">
+                <h1 class="text-[20px]">24/7 Response</h1>
+                <p class="text-[#77777d]">Providing prompt responses for efficient communication and expedited task completion.</p>
+            </div>
+        </div>
+   </main>
+   </section>
+   <!-- experience section starts -->
+   <section class="w-full flex justify-center  bg-[#e6eaee] py-24">
+    <main class="md:w-[80%] w-[90%] flex flex-col  items-center gap-5">
+        <span class="text-[#636363]" id="resume">EXPERIENCE</span>
+        <h1 class="md:text-[45px] text-[30px] font-medium text-center">Professional Resume</h1>
+        <div class="grid md:grid-cols-2 grid-cols-1 gap-0 md:gap-5 w-full pt-10">
+            <div class="border-[0.1px] border-[#D1D1D1] rounded-xl py-8 px-10 w-full">
+
+                <!-- <div class="flex items-start gap-5 py-12">
+                    <img src="./img/resume-icon.svg" alt="" class="bg-white p-4 rounded-xl">
+                    <div class="flex flex-col gap-3"><p>2021 - Present</p>
+                    <h1 class="text-[20px]">Themeforest Market</h1>
+                <span class="text-[#77777d]">Web Designer</span></div>
+            </div>
+            <hr class="bg-[#D1D1D1] h-[2px] w-full"> -->
+            <div class="flex items-start gap-5 py-16">
+                <img src="./img/resume-icon.svg" alt="" class="bg-white p-4 rounded-xl">
+                <div class="flex flex-col gap-3"><p>2022 - Continue</p>
+                <h1 class="text-[20px]">Frontend Development</h1>
+            <span class="text-[#77777d]">
+                Natrix Coders</span></div>
+        </div>
+        <!-- <hr class="bg-[#D1D1D1] h-[2px] w-full">
+        <div class="flex items-start gap-5 py-16">
+            <img src="./img/resume-icon.svg" alt="" class="bg-white p-4 rounded-xl">
+            <div class="flex flex-col gap-3"><p>2022 - 2023</p>
+            <h1 class="text-[20px]">
+                Marketing Expert GRP</h1>
+        <span class="text-[#77777d]">
+            Web Developer & Business Partner</span></div>
+    </div> -->
+    <hr class="bg-[#D1D1D1] h-[2px] w-full">
+  
+            
+        </div>
+        <div class="border-[0.1px] border-[#D1D1D1] rounded-xl py-8 px-10 w-full">
+
+            <div class="flex items-start gap-5 py-12">
+                <img src="./img/resume-icon.svg" alt="" class="bg-white p-4 rounded-xl">
+                <div class="flex flex-col gap-3"><p>2018 - 2020</p>
+                <h1 class="text-[20px]">
+                    Matriculation in Computer Science</h1>
+            <span class="text-[#77777d]">
+                Unique Group Of Institutions</span></div>
+        </div>
+        <hr class="bg-[#D1D1D1] h-[2px] w-full">
+        <div class="flex items-start gap-5 py-16">
+            <img src="./img/resume-icon.svg" alt="" class="bg-white p-4 rounded-xl">
+            <div class="flex flex-col gap-3"><p>2020 - 2022</p>
+            <h1 class="text-[20px]">
+                Higher secoundery Education Pre Engineering</h1>
+        <span class="text-[#77777d]">
+            Punjab College</span></div>
+    </div>
+    <hr class="bg-[#D1D1D1] h-[2px] w-full">
+    <div class="flex items-start gap-5 py-16">
+        <img src="./img/resume-icon.svg" alt="" class="bg-white p-4 rounded-xl">
+        <div class="flex flex-col gap-3"><p>2023 - Continue
+            </p>
+        <h1 class="text-[20px]">
+        Bachelors in Computer Science</h1>
+    <span class="text-[#77777d]">Punjab University</span></div>
+</div>
+<hr class="bg-[#D1D1D1] h-[2px] w-full">
+
+        
+    </div>
+
+        </div>
+</main>
+</section>
+
+    <!-- projects section starts -->
+    <section class="w-full flex justify-center py-24">
+        <main class="md:w-[80%] w-[90%] flex flex-col  items-center gap-5">
+            <span class="text-[#636363]"    id="projects">WORKS</span>
+            <h1 class="md:text-[45px] text-[30px] font-medium text-center">Creative Portfolio</h1>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 pt-10">
+    <div class="group">
+
+
+
+        <div class="relative">
+            
+        <img src="./img/work1-eC3ZTYBG.jpeg" alt="" >
+        <div class="bg-[rgba(0,0,0,0)] group-hover:bg-[rgba(0,0,0,0.5)] transition-all flex duration-500 w-full h-full absolute top-0  items-center justify-center">
+            <button class="bg-black p-2 px-3 rounded-full hidden group-hover:block"><i class="bi bi-arrow-up-right text-[20px] text-white"></i></button>
+        </div>
+        </div>
+
+        <div class="px-3 py-5 border-l-[0.5px] border-r-[0.5px] border-b-[0.5px] rounded-b-xl">
+            <p class="text-[#636363]">Design</p>
+        <h1 class="text-slate-800 text-[20px] font-medium">
+            Mobile Application Design</h1>
+        </div>
+
+
+
+    </div>
+    <div class="group">
+
+
+
+        <div class="relative">
+            
+        <img src="./img/work2.jpeg" alt="" >
+        <div class="bg-[rgba(0,0,0,0)] group-hover:bg-[rgba(0,0,0,0.5)] transition-all flex duration-500 w-full h-full absolute top-0  items-center justify-center">
+            <button class="bg-black p-2 px-3 rounded-full hidden group-hover:block"><i class="bi bi-arrow-up-right text-[20px] text-white"></i></button>
+        </div>
+        </div>
+
+        <div class="px-3 py-5 border-l-[0.5px] border-r-[0.5px] border-b-[0.5px] rounded-b-xl">
+            <p class="text-[#636363]">Design</p>
+        <h1 class="text-slate-800 text-[20px] font-medium">
+            Mobile Application Design</h1>
+        </div>
+
+
+
+    </div>
+    <div class="group">
+
+
+
+        <div class="relative">
+            
+        <img src="./img/work3.jpeg" alt="" >
+        <div class="bg-[rgba(0,0,0,0)] group-hover:bg-[rgba(0,0,0,0.5)] transition-all flex duration-500 w-full h-full absolute top-0  items-center justify-center">
+            <button class="bg-black p-2 px-3 rounded-full hidden group-hover:block"><i class="bi bi-arrow-up-right text-[20px] text-white"></i></button>
+        </div>
+        </div>
+
+        <div class="px-3 py-5 border-l-[0.5px] border-r-[0.5px] border-b-[0.5px] rounded-b-xl">
+            <p class="text-[#636363]">Design</p>
+        <h1 class="text-slate-800 text-[20px] font-medium">
+            Mobile Application Design</h1>
+        </div>
+
+
+
+    </div>
+    <div class="group">
+
+
+
+        <div class="relative">
+            
+        <img src="./img/work2.jpeg" alt="" >
+        <div class="bg-[rgba(0,0,0,0)] group-hover:bg-[rgba(0,0,0,0.5)] transition-all flex duration-500 w-full h-full absolute top-0  items-center justify-center">
+            <button class="bg-black p-2 px-3 rounded-full hidden group-hover:block"><i class="bi bi-arrow-up-right text-[20px] text-white"></i></button>
+        </div>
+        </div>
+
+        <div class="px-3 py-5 border-l-[0.5px] border-r-[0.5px] border-b-[0.5px] rounded-b-xl">
+            <p class="text-[#636363]">Design</p>
+        <h1 class="text-slate-800 text-[20px] font-medium">
+            Mobile Application Design</h1>
+        </div>
+
+
+
+    </div>
+    <div class="group">
+
+
+
+        <div class="relative">
+            
+        <img src="./img/work3.jpeg" alt="" >
+        <div class="bg-[rgba(0,0,0,0)] group-hover:bg-[rgba(0,0,0,0.5)] transition-all flex duration-500 w-full h-full absolute top-0  items-center justify-center">
+            <button class="bg-black p-2 px-3 rounded-full hidden group-hover:block"><i class="bi bi-arrow-up-right text-[20px] text-white"></i></button>
+        </div>
+        </div>
+
+        <div class="px-3 py-5 border-l-[0.5px] border-r-[0.5px] border-b-[0.5px] rounded-b-xl">
+            <p class="text-[#636363]">Design</p>
+        <h1 class="text-slate-800 text-[20px] font-medium">
+            Mobile Application Design</h1>
+        </div>
+
+
+
+    </div>
+    <div class="group">
+
+
+
+        <div class="relative">
+            
+        <img src="./img/work4.jpeg" alt="" >
+        <div class="bg-[rgba(0,0,0,0)] group-hover:bg-[rgba(0,0,0,0.5)] transition-all flex duration-500 w-full h-full absolute top-0  items-center justify-center">
+            <button class="bg-black p-2 px-3 rounded-full hidden group-hover:block"><i class="bi bi-arrow-up-right text-[20px] text-white"></i></button>
+        </div>
+        </div>
+
+        <div class="px-3 py-5 border-l-[0.5px] border-r-[0.5px] border-b-[0.5px] rounded-b-xl">
+            <p class="text-[#636363]">Design</p>
+        <h1 class="text-slate-800 text-[20px] font-medium">
+            Mobile Application Design</h1>
+        </div>
+
+
+
+    </div>
+    
+    
+</div>
+
+       </main>
+       </section>   
+        <!--testimonials-section-starts  -->
+        <section class="w-full flex justify-center py-24 bg-[#e6eaee]">
+            <main class="md:w-[80%] w-[90%] flex flex-col justify-center items-center gap-5">
+                <span class="text-[#636363]">TESTINOMIALS</span>
+                <h1 class="md:text-[45px] text-[30px] font-medium text-center">What clients say!</h1>
+                
+                <div class="grid lg:grid-cols-2 grid-cols-1 lg:gap-5 place-items-center gap-10 pt-10">
+                    <div class="flex flex-col gap-8 w-[90%] border-[0.1px] bg-white rounded-l-md border-[#D1D1D1] rounded-r-3xl px-7 rounded-b-md  py-10 pl-16" id="mySlides">
+                        <img src="./img/author1.jpg" alt="" id="mySlides" class="h-14 w-14 rounded-full">
+                        <p class="text-[#77777d]">
+                            I had the pleasure of collaborating with Mahfooz on the development of our company's website, and I am thoroughly impressed with his work. Mahfooz embodies the pinnacle of frontend development expertise, and his contributions have been instrumental in crafting a website that not only meets but exceeds our expectations.</p>
+                    <div>
+                        <h1 class="text-xl font-medium">Zonathan Doe</h1>
+                        <span class="text-sm text-[#77777d]">CEO & Founder X</span>
+                    </div>
+                    
+    
+                </div>
+                <div class="flex flex-col gap-8 w-[90%] border-[0.1px] bg-whiterounded-l-md border-[#D1D1D1] rounded-r-3xl bg-white rounded-b-md px-7  py-10 pl-16" id="mySlides">
+                    <img src="./img/author2.jpg" alt="" id="mySlides" class="h-14 w-14 rounded-full">
+                    <p class="text-[#77777d]"> I cannot recommend Mahfooz highly enough for his outstanding frontend development skills, professionalism, and dedication to delivering exceptional results. Working with him has been a privilege, and I look forward to future collaborations knowing that our digital projects are in capable hands.</p>
+                <div>
+                    <h1 class="text-xl font-medium">Liana Marie</h1>
+                    <span class="text-sm text-[#77777d]">Lead Designer xyz</span>
+                </div>
+                
+
+            </div>
+                </div> 
+            
+  </main>
+  </section>
+
+
+  <section class="w-full flex justify-center py-24">
+    <main class="md:w-[80%] w-[90%] flex flex-col  items-center gap-5">
+        <span class="text-[#636363]"    id="contact">CONTACT</span>
+        <h1 class="md:text-[45px] text-[30px] font-medium text-center">Get in Touch with Me!</h1>
+<div class="pt-10 flex flex-col w-full gap-10 lg:flex-row lg:justify-between">
+    <div class="bg-[#e6eaee] px-10 flex flex-col gap-14 rounded-xl w-full lg:w-[30%] py-14">
+        <div class="flex flex-col">
+           <i class="bi bi-geo-alt"></i>
+           <span>Address :</span>
+           <p class="text-[#636363]">Lahore,Pakistan</p>
+        </div>
+   
+        <div class="flex flex-col">
+           <i class="bi bi-telephone"></i>
+           <span>Contact Number :</span>
+           <p class="text-[#636363]">
+               +923150426757</p>
+        </div>
+   
+        <div class="flex flex-col">
+   
+           <i class="bi bi-envelope"></i>
+           <span>
+               Email Me :
+           </span>
+           <p class="text-[#636363]">mahfoozdoit@gmail.com</p>
+   
+        </div>
+   
+   </div>
+
+
+   <div class="border-[0.5px] border-[#EFEFEF] rounded-xl lg:w-[67%] w-full flex flex-col items-center gap-7 py-8">
+    <div class="w-[90%]">
+        <div class="flex xl:justify-between xl:flex-row flex-col gap-10 ">
+            <div>
+                <h1 class="pb-5 text-[#636363] font-medium">Full Name</h1>
+             <input type="text" placeholder="Steve Milner" class="bg-[#f9f9f9] border-[#D1D1D1] border-[0.5px] rounded-xl w-[260px] md:w-[307px] p-5 outline-none">
+                
+            </div>
+            <div>
+                <h1 class="pb-5 text-[#636363] font-medium">Email Address</h1>
+             <input type="email" placeholder="hello@webname.com" class="bg-[#f9f9f9] border-[#D1D1D1] border-[0.5px] rounded-xl w-[260px] md:w-[307px] p-5 outline-none">
+                
+            </div>
+            
+        </div>
+        <div>
+            <h1 class="pt-8 pb-5 text-[#636363] font-medium">Your Message</h1>
+                <textarea name="" placeholder="Write Your Message" id="" class="bg-[#f9f9f9] border-[#D1D1D1] border-[0.5px] rounded-xl w-full h-[20vh] outline-0 p-5"></textarea>
+        </div>
+    </div>
+    <button class="text-white hover:text-black bg-black hover:bg-white border-[1px] border-[#EFEFEF] md:p-5 flex justify-center p-3 w-auto gap-5">Send Me Message <span><i class="bi bi-envelope"></i></span></button>
+
+   </div>
+
+</div>
+
+    </main>
+    </section>
+
+
+    <footer class="flex items-center justify-center py-5"><div><p class="text-[#636363] text-sm">Copyright @2024,Designed and Developed by <span class="text-[black] font-medium"> Me </span>  All Rights Reserved.</p></div></footer>
+</body>
+<script src="script.js"></script>
+</html>
